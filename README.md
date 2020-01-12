@@ -110,7 +110,8 @@ PLEASE NOTE: The output is too long to have a png. Please findthem in the files.
 The code for the requested queries can be found in challenge.sql in the Queries folder. It has Table1, Table2, and Table3. 
 
 The output can be found the following:
-Table1_challenge output- table1_challenge.csv
-Table2_challenge output- table2_challenge.csv
-Table3_challenge output- table3_challenge.csv
+
+    - Table1_challenge output- table1_challenge.csv
+    - Table2_challenge output- table2_challenge.csv
+    - Table3_challenge output- table3_challenge.csv
 
