@@ -80,6 +80,7 @@ This module taught me to:
  
  The Table2_challenge query was to remove the duplicates and leave the most recent title from Table 1. In order to do this, I order the information by from_date in descending order. The database numbered depending on how many times the emp_no was displayed by 1 as the most recent from_Date, and the highest number to the earliest date. The number 1 was chosen, which gives back the most recent title and emp_no information. Then, I created a list of the number of employees for each title. 
  I oberserved/analyzed the following:
+ 
     - Assistant Engineer: 5,835 employees
     - Engineer: 47,303 employees
     - Manager: 9 employees
