@@ -92,8 +92,25 @@ This module taught me to:
 The Table3_challenge query was to get a list of information of the employees that could be potential mentors that fit the criteria. I made a new table inclduing all the information columns requested, but put some filters on the birthdate to only 1956, and made the to_date equal to 1/1/1999. Setting the to_date to 1/1/1999 will return the current employees. After the table/list is created, I observed that the list only includes empoyees from all different departments that had the birthdate in 1965, which can be seen in the birthdate column. Also, the to_date for all these employees is 1/1/1999. These are all the employees that fit the criteria to be potential mentors. 
 
 ## PNG of your ERD
+PLEASE NOTE: The png got a bit cut off on the left side. There is a relationship between departments-dept_no and managers- dept_no. 
+
+![EmployeeDB](EmployeeDB.png)
 
 
+The ERD diplays the relationships between all the tables.  
 
+The dept_no from departments has relationships with the table/info that also contain the dept_no, which is tables managers and dept_emp.
 
+The emp_no from employees has relationships with many tables and can be linked and information identified by emp_no because many of the tables has emp_no, such as dept_emp, titles, salaries, managers. Many of information and tables created was joined on emp_no. 
  
+## Code for the requested queries, with examples of each output
+
+PLEASE NOTE: The output is too long to have a png. Please findthem in the files.
+
+The code for the requested queries can be found in challenge.sql in the Queries folder. It has Table1, Table2, and Table3. 
+
+The output can be found the following:
+Table1_challenge output- table1_challenge.csv
+Table2_challenge output- table2_challenge.csv
+Table3_challenge output- table3_challenge.csv
+
