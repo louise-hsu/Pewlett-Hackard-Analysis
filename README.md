@@ -89,7 +89,9 @@ This module taught me to:
     - Staff: 41,129 employees
     - Technique Leader: 15,155 employees
  
-The Table3_challenge query was to get a list of information of the employees that could be potential mentors that fit the criteria. I made a new table inclduing all the information columns requested, but put some filters on the birthdate to only 1956, and made the to_date equal to 1/1/1999. Setting the to_date to 1/1/1999 will return the current employees. After the table/list is created, I observed that the list only includes empoyees from all different departments that had the birthdate in 1965, which can be seen in the birthdate column. Also, the to_date for all these employees is 1/1/1999. These are all the employees that fit the criteria to be potential mentors. 
+The Table3_challenge query was to get a list of information of the employees that could be potential mentors that fit the criteria. I made a new table inclduing all the information columns requested, but put some filters on the birthdate to only 1965, and made the to_date equal to 1/1/1999. Setting the to_date to 1/1/1999 will return the current employees. After the table/list is created, I observed that the list only includes empoyees from all different departments that had the birthdate in 1965, which can be seen in the birthdate column. Also, the to_date for all these employees is 1/1/1999. These are all the employees that fit the criteria to be potential mentors.
+
+Overall, 1,549 employees have the potential to be mentors that fit the mento criteria - current employee with the birthyear of 1965.
 
 ## PNG of your ERD
 PLEASE NOTE: The png got a bit cut off on the left side. There is a relationship between departments-dept_no and managers- dept_no. 
